@@ -1,0 +1,7 @@
+Vérification effectué sur le classe attaque
+Vérification effectué sur le classe animal
+Vérification effectué sur le classe lion
+Vérification effectué sur le classe loup
+Vérification effectué sur le classe ours
+Vérification effectué sur le classe pierre
+Pas besoin de classe plateau
