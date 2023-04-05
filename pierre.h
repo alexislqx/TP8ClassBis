@@ -14,7 +14,7 @@ public:
 
    //virtuelle
   void setAttaque() const;
-  void deplace(int maxX, int maxY) const;
+ void deplace(int maxX, int maxY) const;
 };
 
 #endif

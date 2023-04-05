@@ -11,8 +11,8 @@ public:
    loup(int maxX, int maxY, int a, int b);
 
    //virtuelle
-    void setAttaque() const;
-    void deplace(int maxX, int maxY) const;
+   virtual void setAttaque();
+   virtual void deplace(int maxX, int maxY);
 };
 
 #endif
