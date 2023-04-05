@@ -21,7 +21,7 @@ int main() {
   }
 //Implémentation du jeu
   
-  //pierre atri(10,10);
+  pierre atri(10,10);
   /*
   char a;
   bool fin= false;

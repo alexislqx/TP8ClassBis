@@ -12,7 +12,7 @@ loup::loup(int maxX, int maxY, int a, int b):animal( maxX,  maxY,  a,  b){
    this->nom = "loup";
 }
 
-void loup::deplace(int maxX, int maxY){
+void loup::deplace(int maxX, int maxY)const{
 
 
    int _x = rand()%maxX;//random selon max du plateau
@@ -24,7 +24,7 @@ void loup::deplace(int maxX, int maxY){
 }
 
 
-void loup::setAttaque(){
+void loup::setAttaque() const{
 
    int attaqueAH = rand()%3; //toutes les attaques
    attaque _typeAttaque(attaqueAH);
